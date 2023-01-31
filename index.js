@@ -13,7 +13,7 @@ const SECURT = process.env.jwt_secret;
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://webcodetwo2512.netlify.app/",
   })
 );
 
